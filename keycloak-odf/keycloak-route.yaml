@@ -3,7 +3,6 @@ kind: Route
 metadata:
   name: frontend
 spec:
-#  host: keycloak-odf.apps.ocpacm.ocstraining.com
   tls:
     termination: passthrough
   to:
