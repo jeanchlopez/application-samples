@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: keycloak-odf-app
-#  namespace: postgres-operator
-  namespace: keycloak-odf
   labels:
     app.kubernetes.io/name: keycloak-odf-app
 spec:
